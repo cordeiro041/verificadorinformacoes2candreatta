@@ -11,11 +11,25 @@ body{
  min-height: 100vh;
 }
 
-main{
-
+main{ }
 flex: 1;
 
-.cabecalho{
-    
+cabecalho{
+    color:green;
+padding: 15px 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #FFFF00;
 }
+
+.cartao{
+
+width: 260px;
+height: 200px;
+}
+
+.cartao-imagem{
+
+width: 100%;
 }
